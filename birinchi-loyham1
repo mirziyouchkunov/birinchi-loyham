@@ -1,0 +1,143 @@
+# Print
+#
+#
+# mahsulotlar = []
+# narxlar = []
+# for i in range(3):
+#     print(f"{i + 1}-mahsulot:")
+#     maxsulot = input("Mahsulot nomini kiriting: ")
+#     narx = float(input("Mahsulot narxini kiriting: "))
+#     mahsulotlar.append(maxsulot)
+#     narxlar.append(narx)
+# print("Mahsulotlar ro'yxati:", mahsulotlar)
+# print("Narxlar ro'yxati:", narxlar)
+
+
+
+#
+# talabalar = []
+# print("4 ta talaba ismini kiriting")
+# for i in range(4):
+#     ism = input(f"{i+1}-talaba ismini kiriting: ")
+#     talabalar.append(ism)
+# soni = len(talabalar)
+# print(f"Jami {soni} talaba: {talabalar}")
+# print(talabalar.)
+
+
+#
+#  1 mashq
+#
+# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+#  for car in cars:
+#     if car == 'mazda':
+#          print(car.upper())
+#     else:
+#         print(car.title())
+#
+#
+# 2 mashq
+# login = input("login kiriting:")
+# if login == "admin":
+#     print(f"Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?")
+# else:
+#     print(f"Xush kelibsiz, {login}")
+#
+#
+#  3 mashq
+#
+# a = input("Enter a number: ")
+# b = input("Enter another number: ")
+# if a == b:
+#     print("The numbers are equal")
+#
+#
+# 4 mashq
+#
+# son = float(input("Istagan son kiriting: "))
+# if son < 0:
+#     print("0 kichkina son")
+# else:
+#    if son > 0:
+#        print("0 dan baland son")
+
+
+# mahsulotlar = ["osh","qazonkabob","shashlik","norin","somsa","salat","pitsa","lavash","gamburger","hotdog"]
+# savat = []
+# for mahsulot in range(1, 6):
+#     mahsulot = input(f"Savatga {mahsulot}-mahsulotni qo'shing: ")
+#     savat.append(mahsulot)
+# for mahsulot in savat:
+#     if mahsulot in mahsulotlar:
+#         print(f"Do'konimizda {mahsulot} bor")
+#     else:
+#         print(f"Do'konimizda {mahsulot} yo'q")
+# paket = input("Mahsulotlarni paketga solib beraymi? (ha/yo'q): ")
+# if paket == "ha":
+#     print("Mahsulotlarni paketga solindi, haridingiz uchun rahmat yana kelib turin.")
+# else:print("Hop mayli unda yana kelib turin")
+
+
+#
+# loginlar = ["Mirziyo","Akmal", "Bobur", "Zafar", "Otabek",]
+# login = input("login kiriting:")
+# if login in loginlar:
+#         print(f"{login} login band, yangi login tanlang!")
+# else:
+#     print(f"Xush kelibsiz, {login}")
+
+
+
+# sonlar = []
+# print("5 ta son kiriting:")
+# for i in range(5):
+#     son = int(input(f"Soni kiriting: "))
+#     sonlar.append(son)
+# eng_katta_son = sonlar[0]
+# for son in sonlar:
+#     if son > eng_katta_son:
+#         eng_katta_son = son
+# print(f"Eng katta son: {eng_katta_son}")
+#
+#
+#
+# s = int(input("Nechta son kiritmoqchisiz? "))
+# juftlar = []
+# toqlar = []
+# for i in range(s):
+#     son = int(input(f"{i + 1}-sonni kiriting: "))
+#     if son % 2 == 0:
+#         juftlar.append(son)
+#     else:
+#         toqlar.append(son)
+# print(f"Juft sonlar ro'yxati: {juftlar}")
+# print(f"Toq sonlar ro'yxati: {toqlar}")
+#
+#
+#
+# imtihondan_otgan_talabalar = 0
+# for i in range(1,7):
+#     bal =int(input(f"{i}-talabaning balini kiriting: "))
+#     if bal >= 90:
+#         print("Alo")
+#         imtihondan_otgan_talabalar += 1
+#     elif bal >= 70:
+#             print("Yaxshi")
+#             imtihondan_otgan_talabalar += 1
+#     elif bal >= 50:
+#         print("Qoniqarli")
+#         imtihondan_otgan_talabalar += 1
+#     elif bal <= 49:
+#         print("Yiqildi")
+#         imtihondan_otgan_talabalar += 1
+# print(f"Imtihondan o'tgan talabalar soni: {imtihondan_otgan_talabalar} ta")
+
+
+
+
+
+
+
+
+
+

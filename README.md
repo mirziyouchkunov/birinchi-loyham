@@ -1,0 +1,2 @@
+# birinchi-loyham
+Python darslari
